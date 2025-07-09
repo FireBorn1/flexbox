@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.ggg{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+section h2 {
+    text-align: center;
+    margin-top: 80px;
+}
+.card {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 65px;
+  border-radius: 15px;
+}
+
+footer{
+    margin-top: 60px;
+}
+.left{
+    background-color: red;
+    width: 180px;
+    height: 125px;
+    color: white;
+    text-align: center;
+}
+.right{
+    background-color: red;
+    width: 180px;
+    height: 125px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.card h1 {
+    margin-top: 47px;
+    size: 64px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.right:hover {
+    background-color: aqua;
+    color: black;
+}
+.left:hover {
+    background-color: aqua;
+    color: black;
+}
